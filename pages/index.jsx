@@ -30,24 +30,23 @@ export default function Home() {
       <section id="inicio" className={styles.inicio}>
         <div className={styles.content}>
           <h4>Olá, eu sou</h4>
-          <h1>Vitor <br/> Roman</h1>
+          <h1>Vitor <br /> Roman</h1>
           <h3>Duplicação de <strong>tags NFC</strong> | <strong>Formatação</strong> de computadores</h3>
           <button>
             <a target="__blank" href="https://wa.me/554984115363">Comprar Agora</a>
           </button>
         </div>
         <div className={styles.areaImage}>
-          <Image src={fotoPrincipal} alt="Foto de perfil | Vitor Roman" />
+          <Image src={fotoPrincipal} alt="Foto de perfil | Vitor Roman" width={400} height={400} />
         </div>
       </section>
 
-      
       <section id="sobre" className={styles.sobreMim}>
         <h2>Sobre Mim</h2>
-        <p>Sou Vitor Alexandre Campo Roman. Atualmente moro em Chapecó, SC. <br/>
-        Desde criança, sou apaixonado por tecnologias.  Era sempre chamado para programar  e ajeitar celulares e computadores da família.</p>
+        <p>Sou Vitor Alexandre Campo Roman. Atualmente moro em Chapecó, SC. <br />
+          Desde criança, sou apaixonado por tecnologias. Era sempre chamado para programar e ajeitar celulares e computadores da família.</p>
         <button>
-            <a target="__blank" href="https://wa.me/554984115363">Comprar Agora</a>
+          <a target="__blank" href="https://wa.me/554984115363">Comprar Agora</a>
         </button>
       </section>
 
@@ -55,11 +54,11 @@ export default function Home() {
         <h2>Meus serviços</h2>
         <div className={styles.servico}>
           <div className={styles.imageServico}>
-            <Image src={nfc} alt="Imagen de Tag NFC"/>
+            <Image src={nfc} alt="Imagem de Tag NFC" width={300} height={300} />
           </div>
           <div className={styles.infos}>
             <h3>Duplicação NFC</h3>
-            <p>Faço a duplicação da sa tag NFC de modo que por um preço acessivél, te entrego uma nova tag om base na anterior!</p>
+            <p>Faço a duplicação da sua tag NFC de modo que, por um preço acessível, te entrego uma nova tag com base na anterior!</p>
             <button>
               <a target="__blank" href="https://wa.me/554984115363">Contratar Agora</a>
             </button>
@@ -67,11 +66,11 @@ export default function Home() {
         </div>
         <div className={styles.servico}>
           <div className={styles.imageServico}>
-            <Image src={formatar} alt="Imagen de Tag NFC"/>
+            <Image src={formatar} alt="Formatação de computadores" width={300} height={300} />
           </div>
           <div className={styles.infos}>
             <h3>Formatação de computadores</h3>
-            <p>Preto serviços  de formatação de computadores, com backup completo dos arquivos do cliente e entrega do computador(ou notebook) em até 48 horas.</p>
+            <p>Presto serviços de formatação de computadores, com backup completo dos arquivos do cliente e entrega do computador (ou notebook) em até 48 horas.</p>
             <button>
               <a target="__blank" href="https://wa.me/554984115363">Contratar Agora</a>
             </button>
@@ -84,7 +83,9 @@ export default function Home() {
           href="https://instagram.com/pedrohhcunha"
           target="_blank"
           rel="noopener noreferrer"
-        >Criado por PEDROHHCUNHA</a>
+        >
+          Criado por PEDROHHCUNHA
+        </a>
       </footer>
     </div>
   )
